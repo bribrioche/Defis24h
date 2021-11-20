@@ -10,6 +10,8 @@ interface ActionStrategy {
         DODGE
     }
     
+    //Testeuh
+    
     /**
      * Choisi l'action d'un avatar lors d'un tour d'un combat.
      *
