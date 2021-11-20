@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "previousAdvAction",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "avatar",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damages",
+						"type": "int256"
+					},
+					{
+						"internalType": "address",
+						"name": "avatarAdv",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damagesAdv",
+						"type": "int256"
+					}
+				],
+				"name": "chooseNextAction",
+				"outputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "action",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ContractStrategyWarrior.sol": "ContractStrategyWarrior"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ActionStrategy.sol": {
+			"keccak256": "0xc67acf2fdf150ad1e33f4ffb7961dac69496e67eb5c258ba5376b7b2fb76df8f",
+			"urls": [
+				"bzz-raw://0cb9e0ebfb84d9568da56b0731bdc7024eae4321c9c8a842c0a8619b9b171b5f",
+				"dweb:/ipfs/QmbnnVREwbjNGwZjePVZxYjDoZnsUCSTpbG4vJrmEa4wWE"
+			]
+		},
+		"AvatarInterface.sol": {
+			"keccak256": "0x0781f6bdbe848413ba0d0ae313f0749f632d3133c990433034c6d3d4cf7bd33e",
+			"urls": [
+				"bzz-raw://20c96e6ec7539f1304e2cff6d312c95a190288a8ef333f243123c94f17e37cda",
+				"dweb:/ipfs/Qmc2k6axBhi8ieG1CJ7YoF5mZpKwMiRfcYrebRFrYY1XVi"
+			]
+		},
+		"ContractStrategyWarrior.sol": {
+			"keccak256": "0xb9f1b21c7f0eea4873aa28178ab9603f1f6f7a4bf3ddfa821ebccc759c4751e5",
+			"urls": [
+				"bzz-raw://8fc60d75710d3c23125946c53d3b436bbc8f63399a878df5f703bdb5fc621551",
+				"dweb:/ipfs/QmYrZF9Kv74bBxv4C8nHvQZ5cPdWEj7yVDnDmxYe2yBVrT"
+			]
+		}
+	},
+	"version": 1
+}
