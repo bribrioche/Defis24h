@@ -1,15 +1,15 @@
 pragma solidity >=0.4.22 <0.6.0;
 
-import "./AvatarInterface.sol";
+import "AvatarInterface.sol";
 
 
 contract Avatar is AvatarInterface {
     
     //caractéristiques de combat
-    int endurance;
+    /*int endurance;
     int force;
     int intelligence;
-    int vitesse;
+    int vitesse;*/
     
     //caractéristiques de l'avatar
     string typeAvatar;
@@ -17,7 +17,7 @@ contract Avatar is AvatarInterface {
     int vie;
     int defensePhysique;
     int defenseMagique;
-    int esquive;
+    //int esquive;
     int puissancePhysique;
     int puissanceMagique;
     
@@ -40,7 +40,9 @@ contract Avatar is AvatarInterface {
      * Soigne l'avatar
      */
     function soigner() public {
-        setVie(40);
+        
+        (int endurance, int force, int intelligence, int vitesse) = this.getCaracteristiques();
+        setVie(endurance);
     }
     
 }
