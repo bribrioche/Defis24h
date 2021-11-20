@@ -12,7 +12,7 @@ interface ActionStrategy {
     
 
     //test 234567891011 12
-    
+    // trysgrfezhfb
     /**
      * Choisi l'action d'un avatar lors d'un tour d'un combat.
      *
