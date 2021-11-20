@@ -60,4 +60,8 @@ interface AvatarInterface {
      * @param strategie l'adresse de la nouvelle stratégie de combat
      */
     function modifierStrategieCombat(address strategie) external;
+
 }
+
+
+
