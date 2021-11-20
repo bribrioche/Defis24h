@@ -51,6 +51,27 @@
 				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "perso",
+						"type": "address"
+					}
+				],
+				"name": "testeuh",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -74,10 +95,10 @@
 	},
 	"sources": {
 		"ActionStrategy.sol": {
-			"keccak256": "0xc67acf2fdf150ad1e33f4ffb7961dac69496e67eb5c258ba5376b7b2fb76df8f",
+			"keccak256": "0xe225afce34a6dfc3bc0039cf6da707cec33d23fea577c71866d0d42f81ca3f7b",
 			"urls": [
-				"bzz-raw://0cb9e0ebfb84d9568da56b0731bdc7024eae4321c9c8a842c0a8619b9b171b5f",
-				"dweb:/ipfs/QmbnnVREwbjNGwZjePVZxYjDoZnsUCSTpbG4vJrmEa4wWE"
+				"bzz-raw://8a2669b6c7f145eaea0b7b82bb432c062e642470d7614915df4224242d8159d4",
+				"dweb:/ipfs/QmdmgRyoGyX7Cfe1Z1WM1o6CjxbvKywkHrvWRU54rzcfTo"
 			]
 		},
 		"AvatarInterface.sol": {
@@ -88,10 +109,10 @@
 			]
 		},
 		"ContractStrategyWarrior.sol": {
-			"keccak256": "0xb9f1b21c7f0eea4873aa28178ab9603f1f6f7a4bf3ddfa821ebccc759c4751e5",
+			"keccak256": "0x46e3fa4ae2f881b251713f85111c2edb200524082523718aa4f5c8791f2826bd",
 			"urls": [
-				"bzz-raw://8fc60d75710d3c23125946c53d3b436bbc8f63399a878df5f703bdb5fc621551",
-				"dweb:/ipfs/QmYrZF9Kv74bBxv4C8nHvQZ5cPdWEj7yVDnDmxYe2yBVrT"
+				"bzz-raw://6966544bc28a15defd89d58341e4638669d5370d2025e1ceeb0d3aa342214fee",
+				"dweb:/ipfs/QmVaM1Dt3mFo9vWLr7qyzCzAbNR381XETd4s6McfsBHcbJ"
 			]
 		}
 	},
