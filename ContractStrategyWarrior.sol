@@ -4,8 +4,6 @@ import "AvatarInterface.sol";
 
 contract ContractStrategyWarrior is ActionStrategy{
     
-    
-    
     constructor() public {}
     
     function chooseNextAction(Action previousAdvAction, address avatar, int damages, address avatarAdv, int damagesAdv) external view returns(Action action){
