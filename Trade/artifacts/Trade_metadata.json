@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "receiver",
+						"type": "address"
+					}
+				],
+				"name": "transferEther",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Trade/Trade.sol": "Trade"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Trade/Trade.sol": {
+			"keccak256": "0xbf16d31a4d02a2f92a0538733937e1f0ba688e5ba3ccf4dcc9772d87cd2d3201",
+			"urls": [
+				"bzz-raw://8b213a8222226a124204cd2178accaedb341ad489848698796560856403800f5",
+				"dweb:/ipfs/QmZjrKXFM9PX8BcmUwDPjyTvqSWkWcVLVwaBProz5Tw9Rk"
+			]
+		}
+	},
+	"version": 1
+}

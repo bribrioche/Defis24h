@@ -14,6 +14,21 @@
 			{
 				"constant": true,
 				"inputs": [],
+				"name": "checkVie",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "actualVie",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
 				"name": "getCaracteristiques",
 				"outputs": [
 					{
@@ -244,6 +259,9 @@
 		},
 		"userdoc": {
 			"methods": {
+				"checkVie()": {
+					"notice": "function chooseNextAction(Action previousAdvAction, address avatar, int damages, address avatarAdv, int damagesAdv) external view returns(Action action){ return NONE; }"
+				},
 				"getCaracteristiques()": {
 					"notice": "Donne les caractéristiques de l'avatar."
 				},
@@ -297,10 +315,10 @@
 	},
 	"sources": {
 		"Avatar.sol": {
-			"keccak256": "0xb01a4afb8da3b9955f4db49cb806cad681227b88421896ac553cec9ad13fed08",
+			"keccak256": "0xe4be84150db9c9a9001eb0d84e0ea15156cdc0bd15254c1db3c8dd57102e6d03",
 			"urls": [
-				"bzz-raw://4e421c8493270b892eafe61306fdfc3feec2a9a4bf16476da51b709f12701e28",
-				"dweb:/ipfs/QmYeUzrCExPaM9i1j14A7tBbfCqxSN4QdM5xdd5LkZgPxY"
+				"bzz-raw://86bb13907f1f74612140a5d701916ff34f0ee0ce4ea5fff7af390b23086f74e2",
+				"dweb:/ipfs/QmVqG6YiVHUPvHAmKbm9AP7bTyZXQ6cYhTsyFoCu4wFSDH"
 			]
 		},
 		"AvatarInterface.sol": {
