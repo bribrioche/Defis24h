@@ -4,7 +4,10 @@ import "AvatarInterface.sol";
 
 contract ContractStrategyWarrior is ActionStrategy{
     
+<<<<<<< HEAD
+=======
 
+>>>>>>> cd34b154d52a957ef45be70fca2301ffdfa790c7
     constructor() public {}
     
     function chooseNextAction(Action previousAdvAction, address avatar, int damages, address avatarAdv, int damagesAdv) external view returns(Action action){
