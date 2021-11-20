@@ -10,6 +10,9 @@ interface ActionStrategy {
         DODGE
     }
     
+
+    //test 
+    
     /**
      * Choisi l'action d'un avatar lors d'un tour d'un combat.
      *
