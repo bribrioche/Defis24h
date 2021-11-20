@@ -80,11 +80,18 @@
 				"dweb:/ipfs/QmWbZKu1i726CD8w9Dd4kqaVit1w5CKbYTo4JSY17ESfwS"
 			]
 		},
-		"ContractStrategy.sol": {
-			"keccak256": "0xa9be29ec94493e50aa5ffe251e17631b4c4ae85b8d800c909722ba36540a1b4f",
+		"AvatarInterface.sol": {
+			"keccak256": "0xd50149ac2d720237f3e5cf05d21d597b64f8bcdf8e7ea5943dfef435ef1ad978",
 			"urls": [
-				"bzz-raw://b03f4e88904848c082473ea6d84ad4f6c56afb281f5e6c5dde54fd18dc558d7a",
-				"dweb:/ipfs/QmZxvvu5BoaUV3vZV1PZRjDdiusorTv4xrYeYyMkdKxqdN"
+				"bzz-raw://fea9c3e7493d53f4f366c32ca695e039734335e1b06e06b434b9a08563a78f38",
+				"dweb:/ipfs/QmdH5bWc1z9WYC9PZL8ndkrS9mLTGQhv7qLMy6EJK4r7TE"
+			]
+		},
+		"ContractStrategy.sol": {
+			"keccak256": "0xc644b7f49a8f396709e20e787ca99d020a80dc24c6a48f73a9ef2b33064b3075",
+			"urls": [
+				"bzz-raw://d31c076da6b3bda0a1a9c58e7edeb72d1f0e4e715d0b24b749e3753a547bb96f",
+				"dweb:/ipfs/QmXERttbm8PmfWJTMxzQZMUHcyMim2JMjUNbLzqCjcoKW4"
 			]
 		}
 	},
