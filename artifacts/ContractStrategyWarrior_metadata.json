@@ -51,27 +51,6 @@
 				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "perso",
-						"type": "address"
-					}
-				],
-				"name": "testeuh",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "value",
-						"type": "int256"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -83,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ContractStrategyWarrior.sol": "ContractStrategyWarrior"
+			"ContractStrategyMage.sol": "ContractStrategyWarrior"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -108,11 +87,11 @@
 				"dweb:/ipfs/Qmc2k6axBhi8ieG1CJ7YoF5mZpKwMiRfcYrebRFrYY1XVi"
 			]
 		},
-		"ContractStrategyWarrior.sol": {
-			"keccak256": "0x46e3fa4ae2f881b251713f85111c2edb200524082523718aa4f5c8791f2826bd",
+		"ContractStrategyMage.sol": {
+			"keccak256": "0x437da62bc351660a043f3c88ca37cd109586614a11d6611e6abdd10a01d18e9e",
 			"urls": [
-				"bzz-raw://6966544bc28a15defd89d58341e4638669d5370d2025e1ceeb0d3aa342214fee",
-				"dweb:/ipfs/QmVaM1Dt3mFo9vWLr7qyzCzAbNR381XETd4s6McfsBHcbJ"
+				"bzz-raw://a696b5b9a085a336d28aac701fd04426cec941557391a184c0208a98fda23efd",
+				"dweb:/ipfs/QmVDGQtth7RSnTcvPttGJwEndsHGrLjdNy2HoWXPuAJF4k"
 			]
 		}
 	},
