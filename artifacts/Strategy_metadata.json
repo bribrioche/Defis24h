@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "previousAdvAction",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "avatar",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damages",
+						"type": "int256"
+					},
+					{
+						"internalType": "address",
+						"name": "avatarAdv",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damagesAdv",
+						"type": "int256"
+					}
+				],
+				"name": "chooseNextAction",
+				"outputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "action",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ActionStrategy.sol": "Strategy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ActionStrategy.sol": {
+			"keccak256": "0xe225afce34a6dfc3bc0039cf6da707cec33d23fea577c71866d0d42f81ca3f7b",
+			"urls": [
+				"bzz-raw://8a2669b6c7f145eaea0b7b82bb432c062e642470d7614915df4224242d8159d4",
+				"dweb:/ipfs/QmdmgRyoGyX7Cfe1Z1WM1o6CjxbvKywkHrvWRU54rzcfTo"
+			]
+		}
+	},
+	"version": 1
+}

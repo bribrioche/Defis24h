@@ -10,9 +10,6 @@ interface ActionStrategy {
         DODGE
     }
     
-
-    //test 234567891011 12
-    // trysgrfezhfb
     /**
      * Choisi l'action d'un avatar lors d'un tour d'un combat.
      *
@@ -24,4 +21,14 @@ interface ActionStrategy {
      * @return l'action de l'avatar pour le tour courant
      */
     function chooseNextAction(Action previousAdvAction, address avatar, int damages, address avatarAdv, int damagesAdv) external view returns(Action action);
+}
+
+contract Strategy is ActionStrategy {
+    
+    constructor() public {}
+    
+    function chooseNextAction(Action previousAdvAction, address avatar, int damages, address avatarAdv, int damagesAdv) external view returns(Action action){
+        return Action(0);
+    }
+    
 }
