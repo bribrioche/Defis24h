@@ -62,11 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-<<<<<<< HEAD
-			"ContractStrategyMage.sol": "ContractStrategyWarrior"
-=======
-			"Strategy_Guerrier.sol": "ContractStrategyWarrior"
->>>>>>> dfe5dbf014d6b37445d856f68f64cf81c799065b
+			"Strategy_Guerrier.sol": "Strategy_Guerrier"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -91,19 +87,11 @@
 				"dweb:/ipfs/Qmc2k6axBhi8ieG1CJ7YoF5mZpKwMiRfcYrebRFrYY1XVi"
 			]
 		},
-<<<<<<< HEAD
-		"ContractStrategyMage.sol": {
-			"keccak256": "0x437da62bc351660a043f3c88ca37cd109586614a11d6611e6abdd10a01d18e9e",
-			"urls": [
-				"bzz-raw://a696b5b9a085a336d28aac701fd04426cec941557391a184c0208a98fda23efd",
-				"dweb:/ipfs/QmVDGQtth7RSnTcvPttGJwEndsHGrLjdNy2HoWXPuAJF4k"
-=======
 		"Strategy_Guerrier.sol": {
-			"keccak256": "0xeb24c3217758bfe1ddee0bd6204e08dd11016f4c97b7654309f063c46cd8d68e",
+			"keccak256": "0x30e2050f6354e9d6d9a5c3d2f145fd05f6f868b6d52d1f1a770b06eae2d034a7",
 			"urls": [
-				"bzz-raw://329a7ca223cabc2bb8ae4e9c2db2b4d8fab2bd6e5ca16bf03e29144f4267e569",
-				"dweb:/ipfs/QmSvAyxcX2976sBuV7S7E8xRSqs67ZJ4Dea1A6yBQAZfYB"
->>>>>>> dfe5dbf014d6b37445d856f68f64cf81c799065b
+				"bzz-raw://cfffd0c1cac0f680872b2ed9bb1b2b28aa334a7797d7d54bc9553bdcd593153c",
+				"dweb:/ipfs/Qmay5mZC8Ext3cmRv6DzboRTmCtx9VG1ZxV8p9b7Zwy4Va"
 			]
 		}
 	},
