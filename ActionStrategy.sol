@@ -32,3 +32,4 @@ contract Strategy is ActionStrategy {
     }
     
 }
+

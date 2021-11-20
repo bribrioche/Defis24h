@@ -60,20 +60,8 @@ interface AvatarInterface {
      * @param strategie l'adresse de la nouvelle stratégie de combat
      */
     function modifierStrategieCombat(address strategie) external;
-    
-    /**
-     * Change les points de vie de l'avatar.
-     * @param le nouveau nombre de point de vie
-     */
-    function setVie(uint point_vie) public{
-        this.vie = point_vie;
-    } ;
-    
-    /**
-     * Soigne l'avatar
-     * 
-     */
-    function soigner() public {
-        setVie(40);
-    };
+
 }
+
+
+
