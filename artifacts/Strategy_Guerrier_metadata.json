@@ -62,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Strategy_Guerrier.sol": "ContractStrategyWarrior"
+			"Strategy_Guerrier.sol": "Strategy_Guerrier"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -88,10 +88,10 @@
 			]
 		},
 		"Strategy_Guerrier.sol": {
-			"keccak256": "0xeb24c3217758bfe1ddee0bd6204e08dd11016f4c97b7654309f063c46cd8d68e",
+			"keccak256": "0xbf88113028f328eac6604bb3de5b0c68a3ebd2e934b646b148af3cf1eabf43f4",
 			"urls": [
-				"bzz-raw://329a7ca223cabc2bb8ae4e9c2db2b4d8fab2bd6e5ca16bf03e29144f4267e569",
-				"dweb:/ipfs/QmSvAyxcX2976sBuV7S7E8xRSqs67ZJ4Dea1A6yBQAZfYB"
+				"bzz-raw://4b72e4780fb0348b2d05936a7e8ab82ab3bbe9395f51dadb15466989dd5e3d1b",
+				"dweb:/ipfs/QmY3vm1MJC6ZZuNuU8zMQyhQHHLc6GtTSjvRPq4G8TRtAh"
 			]
 		}
 	},
