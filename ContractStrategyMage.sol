@@ -2,7 +2,7 @@ pragma solidity >=0.4.22 <0.6.0;
 import "ActionStrategy.sol";
 import "AvatarInterface.sol";
 
-contract ContractStrategyWarrior is ActionStrategy{
+contract ContractStrategyMage is ActionStrategy{
     
     constructor() public {}
     
@@ -25,7 +25,7 @@ contract ContractStrategyWarrior is ActionStrategy{
             
             else if (keccak256(abi.encodePacked(adversaire.getType())) == keccak256(abi.encodePacked("Mage")) || keccak256(abi.encodePacked(adversaire.getType())) == keccak256(abi.encodePacked("Archere"))) {
                 if (moi.getVie()<=20 && (previousAdvAction==Action.PHYSICAL_PARRY || previousAdvAction==Action.MAGICAL_PARRY || previousAdvAction==Action.DODGE)) {
-                    return Action.MAGICAL_PARRY;
+                    return Action.DODGE;
                 }
                 else {
                     return Action.MAGICAL_ATTACK;
