@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Explorateur.sol": "Explorateur"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Explorateur.sol": {
+			"keccak256": "0x51d284906eb19f059fcf8b1adae28c2a262b830f855b08abc6442e38b71918d6",
+			"urls": [
+				"bzz-raw://1146ad06014a60f819e13ceee17d3aae529f229a0284eb61e5d1ca104e6c9853",
+				"dweb:/ipfs/QmSSqSsMq8L6PgePi52zU6WBkMPCnZ6mdvtpuaEAJ7YewL"
+			]
+		},
+		"WorldInterface.sol": {
+			"keccak256": "0x95a648ec9fca79ec205ff37fc5e2edf154969d2de50ac4049eab3284056f56a0",
+			"urls": [
+				"bzz-raw://f6a7f43c2c220b3ea6fd654609c21c1bf166c2736a9ad280411503d4b7e33679",
+				"dweb:/ipfs/QmPNXRmZjuaSty8fuT9uuc1Qobf2LDVxLmWMtAvnfPL5yy"
+			]
+		}
+	},
+	"version": 1
+}
