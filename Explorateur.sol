@@ -15,9 +15,12 @@ contract Explorateur {
     }
     
     function explorer(){
-        //getcoulieu
+        //getcoulieu 
+        // savoir combien, convertir, savoir si on a assez puis payer
         //verif si c'est occupé
         //etc
+        
+        
         
         
         

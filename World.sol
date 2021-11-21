@@ -3,7 +3,7 @@ pragma solidity >=0.4.22 <0.6.0;
 import "WorldInterface.sol";
 
 
-contract Worl is WorldInterface {
+contract World is WorldInterface {
     
     
       /**
