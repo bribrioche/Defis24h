@@ -6,12 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"constant": true,
 				"inputs": [
 					{
@@ -62,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"BasicPhysicalAttackStrategy.sol": "ContractStrategyMage"
+			"ptdrlabonnestrat.sol": "Ptdrlabonnestrat"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -80,11 +74,18 @@
 				"dweb:/ipfs/QmdmgRyoGyX7Cfe1Z1WM1o6CjxbvKywkHrvWRU54rzcfTo"
 			]
 		},
-		"BasicPhysicalAttackStrategy.sol": {
-			"keccak256": "0xc014fd56009476e992f84748c63359e8a95a9e003ef548c750b7e9a644298371",
+		"AvatarInterface.sol": {
+			"keccak256": "0x0781f6bdbe848413ba0d0ae313f0749f632d3133c990433034c6d3d4cf7bd33e",
 			"urls": [
-				"bzz-raw://b6d8820b2996de43b8a0d1358fb76a3e6cb5ec500cc872673e5e65ba6a941f29",
-				"dweb:/ipfs/QmQLbw3EX8tEfVncnr7k96KskmdWB8EuPJbdfgHZQ2Uyo4"
+				"bzz-raw://20c96e6ec7539f1304e2cff6d312c95a190288a8ef333f243123c94f17e37cda",
+				"dweb:/ipfs/Qmc2k6axBhi8ieG1CJ7YoF5mZpKwMiRfcYrebRFrYY1XVi"
+			]
+		},
+		"ptdrlabonnestrat.sol": {
+			"keccak256": "0x6349b046152cc05582073edc90e57aff13ffcb9ee00753ed6939c0a19ce90f63",
+			"urls": [
+				"bzz-raw://5fafcb1a1028fb20918fa49d6d16e6f7b0c469e7fb3148ac5d1606559bbdbf49",
+				"dweb:/ipfs/QmWvA3aTbwdZKveSuWgT4zuFDUQnAkfWNkgQ1ry6KPZ1Vr"
 			]
 		}
 	},
